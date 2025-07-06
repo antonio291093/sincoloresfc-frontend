@@ -9,7 +9,7 @@ export default function AnimatedHero() {
       whileInView={{ opacity: 1, x: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 1, ease: "easeOut" }}
-      className="relative w-full max-w-none bg-white py-8"
+      className="relative w-full max-w-none bg-white"
     >
       <div className="flex flex-col md:flex-row items-center justify-center w-full max-w-4xl xl:max-w-6xl 2xl:max-w-7xl mx-auto">
         {/* Imagen a la izquierda */}

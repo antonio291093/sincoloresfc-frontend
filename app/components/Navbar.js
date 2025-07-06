@@ -23,7 +23,7 @@ export default function Navbar() {
       initial={{ opacity: 0, y: -60 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
-      className="bg-white border-b border-gray-200 fixed w-full z-40 top-[40px] left-0"
+      className="bg-white border-b border-gray-200 fixed w-full z-40 top-[40px] left-0 pt-2"
     >
       <div className="max-w-6xl mx-auto flex items-center justify-between p-4">
         <Link href="/" className="text-2xl font-bold text-blue-700">
