@@ -1,6 +1,7 @@
 // app/pronosticos/page.jsx
 
 import PronosticosClient from "./PronosticosClient";
+import { Suspense } from "react";
 
 // SEO dinámico para cada jornada
 export async function generateMetadata({ searchParams }) {
@@ -43,11 +44,12 @@ export async function generateMetadata({ searchParams }) {
   };
 }
 
-// Renderiza el componente cliente (con lógica y hooks)
 export default function PronosticosPage() {
   return (
     <section>
-      <PronosticosClient />
+      <Suspense fallback={<div>Cargando...</div>}>
+        <PronosticosClient />
+      </Suspense>
     </section>
   );
 }
