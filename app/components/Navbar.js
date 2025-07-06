@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function Navbar() {
   const router = useRouter();
@@ -23,11 +24,18 @@ export default function Navbar() {
       initial={{ opacity: 0, y: -60 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
-      className="bg-white border-b border-gray-200 fixed w-full z-40 top-[40px] left-0 pt-2"
+      className="bg-gradient-to-b from-blue-50 to-white border-b border-gray-200 fixed w-full z-40 top-[40px] left-0 pt-2"
     >
       <div className="max-w-6xl mx-auto flex items-center justify-between p-4">
-        <Link href="/" className="text-2xl font-bold text-blue-700">
-          SinColoresFC
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/images/logoHorizontal.png"
+            alt="SinColoresFC"
+            width={160} // Ajusta el tamaño según tu diseño
+            height={48}
+            priority
+            className="h-auto w-auto" // Opcional: para responsividad
+          />
         </Link>
 
         {/* Menú de escritorio */}

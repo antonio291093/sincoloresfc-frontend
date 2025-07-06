@@ -10,9 +10,6 @@ export default function HomeClient() {
         transition={{ duration: 0.8, ease: "easeOut" }}
         className="flex flex-col items-center justify-center py-2 px-4 min-h-[10vh] bg-gradient-to-b from-blue-50 to-white"
       >
-        <h1 className="text-4xl font-extrabold text-blue-800 mb-4 text-center">
-          Bienvenido a SinColoresFC.mx
-        </h1>
         <p className="text-lg text-gray-700 text-center max-w-2xl">
           Pronósticos inteligentes y análisis de la Liga MX Apertura 2025.
           <br />
