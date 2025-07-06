@@ -4,12 +4,6 @@ import { motion } from "framer-motion";
 export default function HomeClient() {
   return (
     <>
-      <motion.nav
-        initial={{ opacity: 0, y: -60 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, ease: "easeOut" }}
-        className="bg-white border-b border-gray-200 fixed w-full z-40 top-[40px] left-0"
-      ></motion.nav>
       <motion.section
         initial={{ opacity: 0, y: -60 }}
         animate={{ opacity: 1, y: 0 }}

@@ -9,7 +9,7 @@ export default function FeatureSection() {
       whileInView={{ opacity: 1, x: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.8, ease: "easeOut" }}
-      className="relative left-1/2 w-screen max-w-none -translate-x-1/2 py-8 bg-white"
+      className="relative w-full max-w-none bg-white py-8"
     >
       <div className="flex flex-col md:flex-row items-center justify-center w-full max-w-4xl xl:max-w-6xl 2xl:max-w-7xl mx-auto">
         {/* Imagen */}
