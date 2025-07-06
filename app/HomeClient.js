@@ -1,7 +1,5 @@
 "use client";
 import { motion } from "framer-motion";
-import AnimatedHero from "./components/AnimatedHero";
-import SecondAnimatedHero from "./components/SecondAnimatedHero";
 
 export default function HomeClient() {
   return (

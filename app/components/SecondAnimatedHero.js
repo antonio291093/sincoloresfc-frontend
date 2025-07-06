@@ -15,7 +15,7 @@ export default function FeatureSection() {
         {/* Imagen */}
         <div className="order-1 md:order-2 w-full md:w-1/2 flex justify-center md:justify-start">
           <Image
-            src="/images/imagen2.png"
+            src="/images/Imagen2.png"
             width={512}
             height={512}
             alt="Descripción de la segunda imagen"

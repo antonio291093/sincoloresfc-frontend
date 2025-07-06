@@ -15,7 +15,7 @@ export default function AnimatedHero() {
         {/* Imagen a la izquierda */}
         <div className="w-full md:w-1/2 flex justify-center md:justify-end mb-4 md:mb-0">
           <Image
-            src="/images/imagen1.png"
+            src="/images/Imagen1.png"
             width={512}
             height={512}
             alt="Descripción de la imagen"
