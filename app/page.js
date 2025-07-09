@@ -22,7 +22,7 @@ export const metadata = {
     siteName: "SinColoresFC.mx",
     images: [
       {
-        url: "https://www.sincoloresfc.mx/og-image.jpg", // Cambia por tu imagen real
+        url: "https://res.cloudinary.com/dfpubv5hp/image/upload/v1752092838/banner_iwmrni.png", // Cambia por tu imagen real
         width: 1200,
         height: 630,
         alt: "Pronósticos Liga MX Apertura 2025",
@@ -35,7 +35,9 @@ export const metadata = {
     card: "summary_large_image",
     title: "Pronósticos Liga MX Apertura 2025",
     description: "Predicciones y análisis de cada jornada de la Liga MX.",
-    images: ["https://www.sincoloresfc.mx/og-image.jpg"],
+    images: [
+      "https://res.cloudinary.com/dfpubv5hp/image/upload/v1752092838/banner_iwmrni.png",
+    ],
   },
   robots: {
     index: true,
@@ -47,7 +49,8 @@ export const metadata = {
 export default function Home() {
   return (
     <>
-      <HomeClient />;{/* Sección bajo el Navbar */}
+      <HomeClient />
+      {/* Sección bajo el Navbar */}
       <AnimatedHero />
       {/* <AdPlaceholder position="between-sections" /> */}
       <SecondAnimatedHero />
